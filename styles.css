@@ -1,0 +1,158 @@
+html {
+    max-width: 1200px;
+    max-height: 750px;
+}
+
+main {
+    background-color: #FFE8EE;
+}
+
+h1 {
+    font-family: "micro 5";
+    font-size: 128px;
+    color: #1E5A6A;
+    text-align: center;
+}
+
+#banner {
+    width: 1200px;
+    height: 250px; 
+    /* background-image: url("images/banner.jpg"); */
+}
+
+div {
+  background-image: url("images/banner.jpg"); 
+  background-size: 1200px 250px; 
+}
+
+li {
+    list-style-type: none;
+    padding: 15px;
+    margin-left: -40px;
+    text-align:center;
+    margin-bottom: 20px;
+    font-family: "sen";
+    /* text-wrap:; */
+}
+
+#button {
+    text-decoration: none;
+    background-color: #F3F5F8;
+    padding: 10px;
+    border-radius: 30px;
+    color: #1E5A6A;
+}
+
+#title2 {
+    margin-top: -80px;
+    font-family: "sen";
+    text-align: center;
+    color: #B97881;
+}
+
+#mainsection {
+    display: flex;
+}
+
+#section1, #section2, #section3, #section4 {
+    background-color: #E1A9B0;
+    padding: 2px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 30px;
+    width: 900px;
+    
+}
+
+h2 {
+    text-align: center;
+    font-family: "sen";
+    color: #F3F5F8;
+}
+
+footer {
+    font-family: "sen";
+    color: #1E5A6A;
+    background-color: #FFE8EE;
+    padding: 20px;
+    text-align: center;
+}
+
+
+@keyframes animation1 {
+    /* from {position: auto;}
+    to {position: 50px;} */
+    0% {left:0px; top:0px;}
+    50% {left:10px; top:10px;}
+    100% {left:0px; top:0px;}
+}
+
+@keyframes animation2 {
+    /* from {position: auto;}
+    to {position: 50px;} */
+    0% {left:0px; top:0px;}
+    50% {left:20px; top:20px;}
+    100% {left:0px; top:0px;}
+}
+
+@keyframes animation3 {
+    /* from {position: auto;}
+    to {position: 50px;} */
+    0% {left:0px; top:0px;}
+    50% {left:10px; top:20px;}
+    100% {left:0px; top:0px;}
+}
+
+#lotus2 {
+    padding-left: 210px;
+    position: relative;
+    animation-name: animation1;
+    animation-duration: 2s;
+    animation-iteration-count:infinite;
+}
+
+#lotus3 {
+    padding-left: 210px;
+    position: relative;
+    animation-name: animation2;
+    animation-duration: 2s;
+    animation-iteration-count:infinite;
+}
+
+#lotus1 {
+    position: relative;
+    animation-name: animation3;
+    animation-duration: 2s;
+    animation-iteration-count:infinite;
+}
+
+@keyframes animation4 {
+    0% {left:0px; top:0px;}
+    25% {left:10px; top:5px;}
+    50% {left:20px; top:10px;}
+    75% {left:30; top:5px;}
+    100% {left:40px; top:0px;}
+}
+
+#frog {
+    padding-left: 250px;
+    margin-top: -40px;
+    animation-name: animation4;
+    animation-duration: 2s;
+    animation-iteration-count:infinite;
+}
+
+ul li a:hover {
+    box-shadow: 5px 5px 10px #1E5A6A;
+    transition-duration: 0.5s;
+ }
+
+ #email {
+    text-decoration: none;
+    list-style-type: none;
+    color: #1E5A6A;
+    font-size: 20px;
+    /* margin-bottom: 100px; */
+ }
