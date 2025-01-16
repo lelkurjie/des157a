@@ -130,18 +130,22 @@ footer {
 
 @keyframes animation4 {
     0% {left:0px; top:0px;}
-    25% {left:10px; top:5px;}
-    50% {left:20px; top:10px;}
-    75% {left:30; top:5px;}
-    100% {left:40px; top:0px;}
+    25% {left:50px; top:0px;}
+    50% {left:200px; top:-60px;}
+    75% {left:410; top:0px;}
+    100% {left:410px; top:0px;}
 }
 
 #frog {
+    position: 
+    relative; 
+
     padding-left: 250px;
     margin-top: -40px;
     animation-name: animation4;
-    animation-duration: 2s;
+    animation-duration: 3s;
     animation-iteration-count:infinite;
+    animation-timing-function: linear;
 }
 
 ul li a:hover {
@@ -156,3 +160,4 @@ ul li a:hover {
     font-size: 20px;
     /* margin-bottom: 100px; */
  }
+
