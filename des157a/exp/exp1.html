@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiment 1</title>
+</head>
+<body>
+    <h1>Experiment 1</h1>
+    <h2>Press command + option + J to open console.</h2>
+
+<script>
+    // My program takes your inputed number and says if you won or lost, and points out what number you chose between 1-100.
+
+    // Sequence
+    var number = prompt ("Enter a number between 1-100", ""); 
+
+    // Selection
+    if (number <= 50) {
+        console.log ("You are a winner!");
+    }else if (number > 50) {
+        console.log ("You lost");
+    } else {
+        console.log ("Error: Number too big");
+    }
+
+    // Loop
+    for (let i = 1; i <= 100; i++) {
+      if (i == number) {
+        console.log (`You chose ${i} <-- this is your number!`);
+      }
+      else {
+        console.log (`Number ${i}`);
+      }
+    }   
+
+</script>
+
+
+</body>
+</html>
