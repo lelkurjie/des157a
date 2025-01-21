@@ -1,0 +1,101 @@
+html {
+    /* max-width: 1200px;
+    max-height: 750px; */
+    background-color: #FFE8EE;
+}
+
+main {
+    background-image: url("../images/lotus.png"); 
+}
+
+header {
+    background-color: #FFE8EE;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 50px;
+}
+
+h1 {
+    font-family: "micro 5";
+    font-size: 128px;
+    color: #1E5A6A;
+    text-align: center;
+    margin-top: -5px;
+}
+
+h2 {
+    font-family: "sen";
+    text-align: center;
+    color: #B97881;
+    font-size: 50px;
+}
+
+h3 {
+    text-align: center;
+    font-family: "sen";
+    color: #B97881;
+    margin-top: -20px;
+    margin-bottom: 40px;
+}
+
+section {
+    margin-left: 90px;
+    margin-right: 90px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px #1E5A6A;
+    padding-bottom: 80px;
+    margin-top: -30px;
+}
+
+p {
+    list-style-type: none;
+    font-family: "sen";
+    color: #1E5A6A;
+    padding-left: 190px;
+    padding-right: 190px;
+    line-height: 1.5em;
+}
+
+footer {
+    font-family: "sen";
+    color: #1E5A6A;
+    background-color: #FFE8EE;
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px;
+    list-style-type: none;
+}
+
+#email {
+    text-decoration: none;
+    list-style-type: none;
+    color: #1E5A6A;
+    font-size: 20px;
+    /* margin-bottom: 100px; */
+ }
+
+ a {
+    list-style-type: none;
+    padding-left: 190px;
+ }
+
+ /* img {
+    position: relative; 
+    padding-left: 200px;
+    margin-top: -100px;
+    margin-bottom: -95px;
+    animation-name: animation4;
+    animation-duration: 3s;
+    animation-iteration-count:infinite;
+    animation-timing-function: linear;
+ } */
+
+ /* @keyframes animation4 {
+    0% {left:0px; top:0px;}
+    25% {left:50px; top:0px;}
+    50% {left:200px; top:-60px;}
+    75% {left:440px; top:0px;}
+    100% {left:500px; top:0px;}
+} */
