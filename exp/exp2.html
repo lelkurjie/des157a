@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiment 2</title>
+<!-- This code asks you to choose beetween cookies or broccoli, and will reply with confirming your input and color accordingly.  -->
+</head>
+<body>
+    <h1>Experiment 2</h1>
+    <h2 id="answer"> Red means no thank you. Green means yes please!</h2>
+
+    <script>
+
+        var colors = ["green", "red"];
+
+        var question = prompt ("Feed me: cookies or broccoli?", "");
+        var message = getSelectionMessage(question);
+        document.querySelector('#answer').textContent = message;
+
+        function getSelectionMessage(selection) {
+            if (selection == "cookies") {
+                return "You selected cookies! Yummy!"; 
+            } else if (selection == "broccoli") {
+                return "You selected broccoli! No thank you..."; 
+            } else {
+                return "Please select either cookies or broccoli."; 
+            }
+        }
+
+        if (question == "cookies") {
+            document.querySelector('#answer').style.color = 'green';
+        }
+
+        else if (question == "broccoli") {
+            document.querySelector('#answer').style.color = 'red';
+        }
+       
+        else {
+            document.querySelector('#answer').textContent = "Please select either cookies or broccoli.";
+        }
+        
+    </script>
+   
+</body>
+</html>
