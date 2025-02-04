@@ -1,0 +1,57 @@
+html {
+    background-image: url("images/bricks.png"); 
+    background-size: 1500px;
+    background-repeat: no-repeat;
+}
+
+body {
+    background-image: url("images/cafe.png");
+    /* background-image: 1200; */
+    background-size: 1200px;
+    background-repeat: no-repeat;
+    height: 750px;
+    background-position: center;
+    margin-top: -20px;
+}
+
+.cafe {
+    margin-top: 5px;
+    /* margin-bottom: 50px; */
+} 
+
+input {
+    background-color: #555D6A;
+    color: #AAAEB4;
+    border: none;
+    border-radius: 20px;
+    font-family: "Inclusive Sans";
+    font-size: 24px;
+    text-decoration-line: underline;
+    width: 188px;
+    height: 55px;
+    text-align: center;
+}
+
+form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    /* grid-gap: 10px;  */
+    margin-top: 251px;
+    margin-left: 335px;
+    background: linear-gradient(180deg, #BCCDE0 0%, #E5E9ED 100%);
+    width: 395px;
+    height: 312px;
+    align-items: center;
+    padding-left: 10px;
+}
+
+url {
+    background-repeat: no-repeat;
+}
+
+/* #ad1 {
+    margin-left: 223px;
+    margin-right: 789px;
+    padding-top: 332px;
+    padding-bottom: 363px;
+} */
