@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Version 1</title>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inclusive+Sans&display=swap" rel="stylesheet">
+
+    <link href="styles.css" rel="stylesheet">
+
+    <script src="script.js" defer></script> 
+</head>
+
+<body>
+
+    <header>
+        <h1>CAFE BASMA</h1>
+    </header> 
+    
+    <form> 
+        <input type="text" id="ad1" name="ad1" placeholder="Adjective">
+        <input type="text" id="city" name="city" placeholder="City">
+        <input type="text" id="verb" name="verb" placeholder="Verb:Present">
+        <input type="text" id="ad2" name="ad2" placeholder="Adjective">
+        <input type="text" id="num" name="num" placeholder="Number">
+        <input type="text" id="noun" name="noun" placeholder="Noun">
+
+        <input type="submit" id="submit" name="submit" formaction="results.html">
+    </form>
+
+    <div id="madlib"></div>
+<!-- 
+    <form id="submitbutton">
+        <input type="submit" id="submit" name="submit" formaction="results.html">
+    </form> -->
+
+    <div>
+        <img src="images/cafe.png" id="cafeimg" alt="cafeimage">
+    </div>
+
+    <div id="madlib-overlay" style="display: none;">
+        <h1>Menu</h1>
+    </div>
+
+    
+</body>
+
+</html>
