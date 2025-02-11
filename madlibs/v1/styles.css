@@ -80,6 +80,10 @@ input::placeholder {
     width: 115px;
     height: 50px;
     border-radius: 0px;
+    position: relative;
+    top: 140px;
+    left: 475px;
+    position: absolute;
 }
 
 form {
@@ -87,7 +91,7 @@ form {
     grid-template-columns: repeat(2, 1fr); 
     /* grid-gap: 10px;  */
     position: fixed;
-    margin-top: 116px;
+    margin-top: 233px;
     margin-left: 333px;
     background: linear-gradient(180deg, #BCCDE0 0%, #E5E9ED 100%);
     width: 395px;
@@ -97,12 +101,13 @@ form {
     z-index: 2;
 }
 
-#submitbutton {
+/* #submitbutton {
     background:none;
     position: relative;
     top: 129px;
     left: 465px;
-}
+    
+} */
 
 url {
     background-repeat: no-repeat;
@@ -114,3 +119,15 @@ url {
     padding-top: 332px;
     padding-bottom: 363px;
 } */
+
+
+#madlib-overlay {
+    background-image: url("./images/table.png"); 
+    background-size: 1500px 760px;
+    background-repeat: no-repeat;
+    color: #6F7C79;
+    font-family: "Instrument Serif";
+    font-size: 48px;
+    padding-left: 975px;
+    padding-top: 15px;
+}
