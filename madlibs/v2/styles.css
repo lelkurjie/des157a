@@ -131,3 +131,11 @@ url {
     padding-left: 975px;
     padding-top: 15px;
 }
+
+.hidden {
+    display: none;
+}
+
+.showing {
+    display: block;
+}
