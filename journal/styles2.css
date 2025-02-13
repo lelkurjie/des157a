@@ -82,6 +82,14 @@ footer {
     padding-left: 190px;
  }
 
+ img {
+    padding-left: 350px;
+ }
+
+ figcaption {
+    padding-left: 350px;
+ }
+
  /* img {
     position: relative; 
     padding-left: 200px;
