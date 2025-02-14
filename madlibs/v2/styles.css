@@ -5,8 +5,9 @@
 } */
 
 html {
+    /* from glenda: usability problem */
     overflow: hidden;
-    padding-top: 60px;
+    /* padding-top: 60px; */
 }
 
 h1 {
@@ -29,18 +30,32 @@ body {
     background-position: center;
     margin-top: -20px; */
     background-image: url("images/bricks.png"); 
-    background-size: 1500px 760px;
-    background-repeat: no-repeat;
+    background-size: 375px 120dpx;
+    /* background-size: 1500px 760px; */
+    /* background-repeat: no-repeat; */
+    /* width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-content: center; */
 }
 
-#cafeimg {
+/* glenda added */
+.container {
+    position: relative;
+    background-image: url(images/cafe.png);
+    width: 1200px;
+    height: 750px;
+    margin: auto;
+}
+
+/* #cafeimg {
     position: absolute;
     padding-top: 5px;
     top: 0; 
     left: 50%;
     transform: translateX(-50%); 
     z-index: 1; 
-}
+} */
 
 /* h1 {
     color: #353C46;
@@ -64,6 +79,8 @@ input {
     width: 188px;
     height: 55px;
     text-align: center;
+    margin-top: 20px;
+    margin-left: 2px;
 }
 
 
@@ -80,24 +97,27 @@ input::placeholder {
     width: 115px;
     height: 50px;
     border-radius: 0px;
-    position: relative;
-    top: 140px;
-    left: 475px;
+    /* from glenda: conflicting positioning */
+    top: 120px;
+    left: 465px;
     position: absolute;
 }
 
 form {
+    /* from glenda: place in position to its parent which is .container */
+    position: absolute; 
+    top: 287px;
+    left: 218px;
     display: grid;
     grid-template-columns: repeat(2, 1fr); 
     /* grid-gap: 10px;  */
-    position: fixed;
-    margin-top: 233px;
-    margin-left: 333px;
+    /* position: fixed; */
+  
     background: linear-gradient(180deg, #BCCDE0 0%, #E5E9ED 100%);
     width: 395px;
     height: 312px;
-    align-items: center;
-    padding-left: 10px;
+    /* align-items: center; */
+    /* padding-left: 10px; */
     z-index: 2;
 }
 
@@ -123,13 +143,15 @@ url {
 
 #madlib-overlay {
     background-image: url("./images/table.png"); 
-    background-size: 1500px 760px;
+    background-size: 1500px 750px;
     background-repeat: no-repeat;
     color: #6F7C79;
     font-family: "Instrument Serif";
     font-size: 48px;
     padding-left: 975px;
-    padding-top: 15px;
+    padding-top: 5px;
+    margin: 0;
+    padding: 0;
 }
 
 .hidden {
@@ -139,3 +161,46 @@ url {
 .showing {
     display: block;
 }
+
+#menutext {
+    padding-left: 600px;
+    padding-top: 45px;
+    color: #6F7C79;
+    font-family: "Instrument Serif";
+    font-size: 48px;   
+}
+
+#madlib {
+    font-size: 12px;  
+    padding-top: 150px;
+    z-index: 1000; 
+    color: #000;
+    font-family: "Inclusive Sans";
+    font-size: 24px;
+    line-height: 140%;
+    padding-left: 800px;
+    width: 464px;
+    height: 572px;
+}
+
+#madlib span {
+    font-weight: bold;
+    color: #6F7C79;
+}
+
+.error-message {
+    background: #555D6A;
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 400px;
+    width: 130px;
+    margin-top: -500px;
+    margin-right: 170px;
+    padding-right: 10px;
+    margin-left: -10px;
+}
+
+/* div {
+    background-image: url("./images/table.png");
+} */

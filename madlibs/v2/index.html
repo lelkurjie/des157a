@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Version 1</title>
+    <title>Version 2</title>
 
     <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
 
@@ -20,32 +20,33 @@
 <body>
 
     <header>
-        <h1>CAFE BASMA</h1>
+        <h1 id="page-header">CAFE BASMA</h1>
     </header> 
-    
-    <form> 
-        <input type="text" id="ad1" name="ad1" placeholder="Adjective">
-        <input type="text" id="city" name="city" placeholder="City">
-        <input type="text" id="verb" name="verb" placeholder="Verb:Present">
-        <input type="text" id="ad2" name="ad2" placeholder="Adjective">
-        <input type="text" id="num" name="num" placeholder="Number">
-        <input type="text" id="noun" name="noun" placeholder="Noun">
 
-        <input type="submit" id="submit" name="submit">
-    </form>
+    <div class="container">
+        <form> 
+            <input type="text" id="ad1" name="ad1" placeholder="Adjective">
+            <input type="text" id="city" name="city" placeholder="City">
+            <input type="text" id="verb" name="verb" placeholder="Verb:Present">
+            <input type="text" id="ad2" name="ad2" placeholder="Adjective">
+            <input type="text" id="num" name="num" placeholder="Number">
+            <input type="text" id="noun" name="noun" placeholder="Noun">
 
+            <input type="submit" id="submit" name="submit">
+        </form>
+    </div>
     <div id="madlib"></div>
 <!-- 
     <form id="submitbutton">
         <input type="submit" id="submit" name="submit" formaction="results.html">
     </form> -->
 
-    <div>
+    <!-- <div>
         <img src="images/cafe.png" id="cafeimg" alt="cafeimage">
-    </div>
+    </div> -->
 
     <div id="madlib-overlay" class="hidden">
-        <h1>Menu</h1>
+        <h1 id="menutext">Menu</h1>
     </div>
 
     
