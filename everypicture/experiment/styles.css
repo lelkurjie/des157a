@@ -1,0 +1,58 @@
+body {
+    max-width: 1200px;
+    max-height: 750px;
+    background-image: url("images/sheet.jpg");
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    padding-left: 250px;
+}
+
+#one {
+    padding-left: 200px;
+    transition: all 1s ease;
+    padding-top: 80px;
+}
+
+#one:hover {
+    transform: scale(4);
+    padding-top: 50px;
+    padding-right: 30px;
+}
+
+#two {
+    padding-left: 700px;
+    transition: all 1s ease;
+    padding-top: 80px;
+}
+
+#two:hover {
+    transform: scale(4);
+    padding-right: 700px;
+    padding-bottom: 50px;
+}
+
+#three {
+    padding-left: 300px;
+    padding-top: 80px;
+    transition: all 1s ease;
+}
+
+#three:hover {
+    transform: scale(4);
+    padding-right: 80px;
+    padding-bottom: 200px;
+}
+
+#four {
+    padding-left: 1150px;
+    transition: all 1s ease;
+}
+
+#four:hover {
+    transform: scale(4);
+    padding-right: 1450px;
+    padding-bottom: 200px;
+}
