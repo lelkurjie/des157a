@@ -1,0 +1,41 @@
+body {
+    background-image: url(images/sheet.png);
+    background-repeat: no-repeat;
+    /* overflow:hidden; */
+}
+
+h1 {
+    font-family: "Damion";
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+}
+
+#note1 {
+    position:relative;
+    bottom: -267px;
+    left: 100px;
+}
+
+#note2 {
+    position:relative;
+    bottom: -3px;
+    left: 300px;
+}
+
+#note3 {
+    position:relative;
+    bottom: -135px;
+    left: 450px;
+}
+
+#note4 {
+    position:relative;
+    bottom: -267px;
+    left: 600px;
+}
+
+#note1:hover, #note2:hover, #note3:hover, #note4:hover {
+    transform: scale(1.2); 
+    
+}
