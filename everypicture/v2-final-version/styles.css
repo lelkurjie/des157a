@@ -1,0 +1,108 @@
+body {
+    background-image: url(images/sheet.png);
+    background-repeat: no-repeat;
+    /* overflow:hidden; */
+}
+
+h1 {
+    font-family: "Damion";
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+}
+
+#note1 {
+    position:relative;
+    bottom: -267px;
+    left: 100px;
+}
+
+#note2 {
+    position:relative;
+    bottom: -3px;
+    left: 300px;
+}
+
+#note3 {
+    position:relative;
+    bottom: -135px;
+    left: 450px;
+}
+
+#note4 {
+    position:relative;
+    bottom: -267px;
+    left: 600px;
+}
+
+#note1:hover, #note2:hover, #note3:hover, #note4:hover {
+    transform: scale(1.2); 
+}
+
+.hidden {
+    display: none;
+}
+
+#overlay, #overlay2, #overlay3, #overlay4 {
+    background-image: url(images/blackbg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+}
+
+#button, #button2, #button3, #button4{
+    color: black;
+    font-family: "Khula";
+    background-color: transparent;
+    /* margin-top: 70px;
+    margin-left: 150px; */
+    border: none;
+    /* border-radius: 50%; */
+    position: relative;
+    font-size: 25px;
+}
+
+#info, #info2, #info3, #info4 {
+    max-width: 410px;
+    background-color: #FDFEFF;
+    padding: 20px;
+   font-family: "Khula";
+   line-height: 30px;
+   font-size: 15px;
+   position: absolute;
+   top: 370px; left: 190px;
+}
+
+#one, #two, #three, #four {
+    position: fixed;
+    padding-top: 90px;
+    padding-left: 170px;
+}
+
+#pieceone, #piecetwo, #piecethree, #piecefour {
+    position: fixed;
+    padding-left: 670px;
+    padding-top: 90px;
+    max-height: 575px;
+}
+
+#text2014, #text2018, #text2023, #text2024 {
+    writing-mode: vertical-rl;
+    text-orientation: upright;  
+    font-family: "Damion";
+    font-size: 96px;
+    color: #DBE8F5;
+    padding-left: 1080px;
+    padding-top: 20px;
+    letter-spacing: -0.2em;
+}
+
+#icon, #icon2, #icon3, #icon4 {
+    padding-top: 60px;
+    padding-left: 1180px;
+}
+
