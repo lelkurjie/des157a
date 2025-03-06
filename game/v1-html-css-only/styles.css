@@ -21,5 +21,31 @@ h1 {
 }
 
 #tofu {
-    
+    margin-bottom: 50px;
+    margin-left: -15px;
+}
+
+#tofu2 {
+    margin-bottom: 50px;
+    margin-left: -210px;
+}
+
+#number1 {
+    font-family: "Hina Mincho";
+    font-size: 45px;
+    color: #c42e27;
+    padding-left: 670px;
+}
+
+#number2 {
+    font-family: "Hina Mincho";
+    font-size: 45px;
+    color: #c42e27;
+    padding-left: 790px;
+    margin-top: -95px;
+}
+
+#lines {
+    padding-left: 40px;
+    padding-top: 27px;
 }
