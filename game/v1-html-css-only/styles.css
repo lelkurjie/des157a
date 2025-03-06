@@ -1,0 +1,25 @@
+body {
+    background-image: url("images/background.jpg");
+    background-size: cover;
+}
+
+h1 {
+    font-family: "Hina Mincho", serif;
+    padding-left: 685px;
+    padding-top: 100px;
+}
+
+#roll {
+    background-color: #284d24;
+    border-radius: 5px;
+    font-size: 31px;
+    font-family: "Hina Mincho";
+    color: #f5e6c9;
+    margin-left: 685px;
+    margin-top: 200px;
+    border-color: #284d24;
+}
+
+#tofu {
+    
+}
