@@ -13,21 +13,34 @@
     <link href="styles.css" rel="stylesheet">
     <script src="script.js" defer></script>
     
-    <title>HTML CSS Only</title>
+    <title>Sushi Game</title>
 </head>
 <body>
-    <header>
-        <h1>SUSHI</h1>
-    </header>
 
     <main>
+        <h1>SUSHI</h1>
         <!-- <button id="roll">ROLL</button> -->
-        <img src="images/5die.png" id="tofu">
-        <img src="images/5die.png" id="tofu2">
+        <img src="images/5die.png" id="tofu" alt="tofu">
+        <img src="images/5die.png" id="tofu2" alt="tofu">
         <p id="number1">0</p>
         <p id="number2">0</p>
-        <img src="images/lines.png" id="lines">
+        <!-- <img src="images/lines.png" id="lines"> -->
+        <button id="startgame">START</button>
+
+
+        <div id="gamecontrol">
+            <!-- <h2>Start a Game</h2> -->
+            <p id="pick">Pick first player (Nigiri) and roll</p>
+        </div>
+
+        <div id="game"></div>
+        <div id="actions"></div>
+        <div id="score"></div>
     </main>
 
+    <footer>
+        <a href="sources.html">Sources</a>
+    </footer>
 </body>
+
 </html>
