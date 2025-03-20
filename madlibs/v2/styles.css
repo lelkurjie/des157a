@@ -10,8 +10,17 @@ html {
     /* padding-top: 60px; */
 }
 
+/* glenda added */
+.container {
+    position: relative;
+    background-image: url(images/cafe.png);
+    width: 1200px;
+    height: 750px;
+    margin: auto;
+}
+
 h1 {
-    position: fixed;
+    position: absolute;
     top: -25px;
     left: 50%;
     transform: translateX(-50%); 
@@ -39,14 +48,6 @@ body {
     place-content: center; */
 }
 
-/* glenda added */
-.container {
-    position: relative;
-    background-image: url(images/cafe.png);
-    width: 1200px;
-    height: 750px;
-    margin: auto;
-}
 
 /* #cafeimg {
     position: absolute;
@@ -66,6 +67,7 @@ body {
 
 .cafe {
     margin-top: 5px;
+    background-size: fill;
     /* margin-bottom: 50px; */
 } 
 
@@ -145,6 +147,7 @@ url {
     background-image: url("./images/table.png"); 
     background-size: 1500px 750px;
     background-repeat: no-repeat;
+    /* background-size: fit; */
     color: #6F7C79;
     font-family: "Instrument Serif";
     font-size: 48px;
@@ -152,6 +155,8 @@ url {
     padding-top: 5px;
     margin: 0;
     padding: 0;
+    z-index: 1;
+    /* position: relative; */
 }
 
 .hidden {
@@ -163,11 +168,12 @@ url {
 }
 
 #menutext {
-    padding-left: 600px;
-    padding-top: 45px;
+    left: 1030px;
+    top: 20px;
     color: #6F7C79;
     font-family: "Instrument Serif";
-    font-size: 48px;   
+    font-size: 48px;  
+    position: fixed; 
 }
 
 #madlib {
@@ -181,6 +187,7 @@ url {
     padding-left: 800px;
     width: 464px;
     height: 572px;
+    /* position: relative; */
 }
 
 #madlib span {
@@ -188,17 +195,23 @@ url {
     color: #6F7C79;
 }
 
-.error-message {
+.error-message-container {
     background: #555D6A;
+    position: absolute;
     color: white;
     font-size: 20px;
-    text-align: left;
-    padding-left: 400px;
+    font-family: "Inclusive Sans";
+    /* text-align: center; */
+    padding-left: 200px;
     width: 130px;
-    margin-top: -500px;
+    top: 400px;
+    left: 1050px;
+    transform: translateX(-50%);
+    z-index: -1;
+    /* margin-top: -500px;
     margin-right: 170px;
     padding-right: 10px;
-    margin-left: -10px;
+    margin-left: -10px; */
 }
 
 /* div {

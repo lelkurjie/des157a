@@ -6,6 +6,7 @@
     const madlibOverlay = document.querySelector('#madlib-overlay');
     const madlib = document.querySelector('#madlib');
     const pageheader = document.querySelector('#page-header');
+    const errorMessageContainer = document.querySelector('.error-message-container');
 
     const ad1input = document.querySelector('#ad1');
     const cityinput = document.querySelector('#city');
@@ -31,6 +32,8 @@
         const num = numberinput.value;
         const noun = nouninput.value;
 
+        errorMessageContainer.style.display = 'none'; 
+
         // const city = document.querySelector('#city').value;
         // const verb = document.querySelector('#verb').value;
         // const ad2= document.querySelector('#ad2').value;
@@ -38,27 +41,33 @@
         // const noun= document.querySelector('#noun').value;
 
         if (ad1 === ''){
-            madlib.innerHTML = '<div class="error-message">To get your menu, enter an adjective!';
+            errorMessageContainer.innerHTML = 'To get your menu, enter an adjective!';
+            errorMessageContainer.style.display = 'block';
             ad1input.focus();
 
         } else if (city === '') {
-            madlib.innerHTML = '<div class="error-message">To get your menu, enter a city!';
+            errorMessageContainer.innerHTML = 'To get your menu, enter a city!';
+            errorMessageContainer.style.display = 'block';
             cityinput.focus();
 
         } else if (verb === '') {
-            madlib.innerHTML = '<div class="error-message">To get your menu, enter a verb!';
+            errorMessageContainer.innerHTML = 'To get your menu, enter a verb!';
+            errorMessageContainer.style.display = 'block';
             verbinput.focus();
         
         }else if (ad2 === ''){
-            madlib.innerHTML = '<div class="error-message">To get your menu, enter an adjective!';
+            errorMessageContainer.innerHTML = 'To get your menu, enter an adjective!';
+            errorMessageContainer.style.display = 'block';
             ad2input.focus();
 
         }else if (num === ''){
-            madlib.innerHTML = '<div class="error-message">To get your menu, enter a number!';
+            errorMessageContainer.innerHTML = 'To get your menu, enter a number!';
+            errorMessageContainer.style.display = 'block';
             numberinput.focus();
 
         }else if (noun === ''){
-            madlib.innerHTML = '<div class="error-message">To get your menu, enter a noun!';
+            errorMessageContainer.innerHTML = 'To get your menu, enter a noun!';
+            errorMessageContainer.style.display = 'block';
             nouninput.focus();
 
         } else {
@@ -72,6 +81,10 @@
             
             document.body.style.backgroundImage = "none";
             document.body.style.backgroundImage = "url('images/table.png')";
+            document.body.style.backgroundRepeat = "no-repeat";
+            document.body.style.backgroundSize = "cover";
+            document.body.style.height = "100vh";
+            // document.body.style.backgroundPosition = "center";
             
             // document.querySelector("#madlib-overlay").style.display = "block";
             // document.querySelector("#cafeimg").style.display = "none";
